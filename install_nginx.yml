@@ -11,5 +11,6 @@
   - name: install nginx
     apt:
       name: nginx
-      state: latest  
+      state: latest
+    when: ansible_distribution == "Ubuntu" 
 

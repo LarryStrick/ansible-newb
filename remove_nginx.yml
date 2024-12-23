@@ -13,3 +13,4 @@
       name: nginx
       state: absent  
 
+    when: ansible_distribution == "Ubuntu" 
