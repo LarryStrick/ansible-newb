@@ -1,2 +1,9 @@
-192.168.6.39
-192.168.6.172
+[web_servers]
+thebes
+circe
+hecate
+[db_servers]
+gomphi
+athens
+[file_servers]
+delphi
